@@ -42,7 +42,6 @@ import org.sonatype.nexus.client.rest.UsernamePasswordAuthenticationInfo;
 import org.sonatype.sisu.bl.support.resolver.BundleResolver;
 import org.sonatype.sisu.bl.support.resolver.MavenBridgedBundleResolver;
 import org.sonatype.sisu.bl.support.resolver.TargetDirectoryResolver;
-import org.sonatype.sisu.filetasks.FileTaskBuilder;
 import org.sonatype.sisu.goodies.common.Properties2;
 import org.sonatype.sisu.litmus.testsupport.TestData;
 import org.sonatype.sisu.litmus.testsupport.TestIndex;

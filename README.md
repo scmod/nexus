@@ -1,4 +1,4 @@
-<!--1
+<!--
 
     Sonatype Nexus (TM) Open Source Version
     Copyright (c) 2007-2013 Sonatype, Inc.

@@ -32,7 +32,7 @@
     <pluginName>Nexus Kenai Realm Plugin</pluginName>
     <pluginDescription>Adds Kenai realm to Nexus.</pluginDescription>
     <security.version>3.1</security.version>
-    <jetty.version>6.1.12</jetty.version>
+    <jetty.version>8.1.16.v20140903</jetty.version>
   </properties>
 
   <dependencies>
@@ -53,31 +53,26 @@
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpclient</artifactId>
-      <version>4.2.2</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpmime</artifactId>
-      <version>4.2.2</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpcore</artifactId>
-      <version>4.2.2</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.shiro</groupId>
       <artifactId>shiro-core</artifactId>
-      <version>1.2.1</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>jcl-over-slf4j</artifactId>
-      <version>1.7.2</version>
       <scope>provided</scope>
     </dependency>
 
@@ -90,14 +85,12 @@
     <dependency>
       <groupId>org.sonatype.security.realms</groupId>
       <artifactId>security-xml-realm</artifactId>
-      <version>${security.version}</version>
       <classifier>tests</classifier>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.sonatype.plexus</groupId>
       <artifactId>plexus-jetty-testsuite</artifactId>
-      <version>1.8</version>
       <scope>test</scope>
       <exclusions>
         <exclusion>
